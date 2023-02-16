@@ -8,7 +8,7 @@ import { galleryItems } from './gallery-items';
 
 // Створення і рендер розмітки
 
-const createGalleryMarkup = galleryItems => {
+function createGalleryMarkup(galleryItems) {
   return galleryItems
     .map(({ preview, original, description }) => {
       return `<a class="gallery__item" href="${original}">
