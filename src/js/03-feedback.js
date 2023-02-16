@@ -27,7 +27,7 @@ function onFormSubmit(evt) {
 }
 
 
-function populateFormInput(evt) {
+function populateFormInput() {
   const saveMessage = JSON.parse(localStorage.getItem(LOCALSTORAGE_KEY));
 
   if (saveMessage) {
